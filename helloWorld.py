@@ -1,4 +1,4 @@
-def helloWorld():
-	return 'Hello World'
+def helloAnything(something):
+	return f"Hello {something}"
 
-print(helloWorld())
+print(helloAnything('World'))
